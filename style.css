@@ -1,4 +1,30 @@
 div{
   font-family: 'Roboto', sans-serif;
-color: red
+}
+.title{
+  display: flex;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+
+}
+.navbar__link{
+  margin: 0 20px
+}
+.section{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+}
+.title__ellipe:nth-child(1){
+  position: relative;
+  right: -20px;
+  z-index: 10
+}
+.title__ellipe:nth-child(2){
+    position: relative;
+    bottom: -5px;
+    background-color: white
 }
