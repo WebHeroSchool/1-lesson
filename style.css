@@ -88,3 +88,39 @@ line-height: 27px;
     text-align: left;
     padding-left: 21px;
 }
+.main__img {
+  margin-top: 114px;
+    margin-right: 88px;
+}
+.footer__ciricle{
+  width: 7px;
+  height: 7px;
+background: black;
+margin-top: 81px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.footer{
+  display: flex;
+   justify-content: center;
+
+}
+.footer__ciricle::after{
+  content: "";
+  width: 7px;
+  height: 7px;
+background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+}
+.footer__ciricle::before{
+  content: "";
+  width: 7px;
+  height: 7px;
+background: black;
+    border-radius: 50%;
+    position: absolute;
+    right: -10px
+}
