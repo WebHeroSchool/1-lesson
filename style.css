@@ -8,8 +8,7 @@ div{
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 40px 194px 0 170px;
-
+  margin: 37px 213px 0 194px;
 }
 .navbar__link{
   line-height: 38px;
@@ -87,6 +86,8 @@ line-height: 27px;
     letter-spacing: -0.1px;
     text-align: left;
     padding-left: 21px;
+    background: #0056EC;
+border-radius: 4px;
 }
 .main__img {
   margin-top: 114px;
@@ -95,11 +96,11 @@ line-height: 27px;
 .footer__ciricle{
   width: 7px;
   height: 7px;
-background: black;
-margin-top: 81px;
-    border-radius: 50%;
-    position: relative;
-    margin-bottom: 20px;
+  margin-top: 81px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 20px;
+  background:  #C8DBFB;
 }
 .footer{
   display: flex;
@@ -110,7 +111,7 @@ margin-top: 81px;
   content: "";
   width: 7px;
   height: 7px;
-background: black;
+background:  #C8DBFB;
     border-radius: 50%;
     position: absolute;
     left: -10px;
@@ -119,8 +120,49 @@ background: black;
   content: "";
   width: 7px;
   height: 7px;
-background: black;
+background:  #C8DBFB;
     border-radius: 50%;
     position: absolute;
     right: -10px
+}
+@media (max-width:1366px) {
+  .navbar__link {
+    font-size: 14px;
+    margin: 0px 6px;
+  }
+  .navbar{
+    margin-top: 4px;
+  }
+.main{margin-top: 5px;margin-left: 108px;max-width: 801px;}
+.main__title{
+  font-size: 50px;
+  line-height: 66px;
+  max-width: 408px;
+  margin-top: 76px;
+  letter-spacing: 0px;
+}
+.main__img{
+  width: 515px;
+  height: 437px;
+  margin-top: 67px;
+  margin-right: 110px;
+}
+.main__description{
+max-width: 385px;
+letter-spacing: 0px;
+font-size: 18px;
+line-height: 21px;
+margin-top: 40px;
+word-spacing: 1px;
+}
+.main__btn {
+width: 210px;
+margin-left: 2px;
+height: 46px;
+font-size: 14px;
+letter-spacing: 0.1px;
+}
+.footer__ciricle{
+margin-top: 36px;
+}
 }
