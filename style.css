@@ -274,9 +274,8 @@
     }
     #menu__input:checked~.burger span {
         background-color: #fff;
-        
     }
-    #menu__input:checked~.burger{
+    #menu__input:checked~.burger {
         position: fixed;
         top: 37px;
         right: 25px;
@@ -285,10 +284,12 @@
     #menu__input:checked~.burger span::after {
         transform: rotate(45deg);
         top: 0;
+        transition: all 1s ease;
     }
     #menu__input:checked~.burger span::before {
         transform: rotate(-45deg);
         top: 0;
+        transition: all 1s ease;
     }
     #menu__input:checked~.navbar {
         z-index: 100;
@@ -304,6 +305,7 @@
         justify-content: center;
         align-items: center;
         /* font-size: 83px; */
+        transition: all 1s ease;
     }
     .navbar__link {
         font-size: 25px;
